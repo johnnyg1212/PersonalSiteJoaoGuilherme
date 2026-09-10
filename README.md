@@ -19,29 +19,7 @@ Site estático, bilíngue (PT / EN), sem dependências de build.
   pelo navegador do visitante.
 - Para ajustar um texto: edite o português no HTML **e** a chave
   correspondente (`data-i18n="..."`) no objeto `EN`.
-
-## Rodar localmente
-
-Basta abrir o `index.html` no navegador. Ou, para servir igual à produção:
-
-```bash
-python -m http.server 8000
-```
-
-E acessar `http://localhost:8000`.
-
-## Publicar (hospedagem gratuita, com domínio próprio opcional)
-
-Como é só HTML/CSS/JS, qualquer uma destas opções funciona arrastando a pasta:
-
-- **Netlify** — netlify.com/drop (arrasta a pasta, sai no ar na hora)
-- **Vercel** — `vercel` CLI ou importando um repositório
-- **Cloudflare Pages** — pages.cloudflare.com
-- **GitHub Pages** — sobe os arquivos num repositório e ativa Pages nas settings
-
-Todas permitem apontar um domínio customizado (ex.: `joaoguilherme.dev`)
-gratuitamente, com HTTPS automático.
-
+  
 ## Personalizar cores
 
 As cores estão centralizadas no topo do `styles.css`, em `:root`
